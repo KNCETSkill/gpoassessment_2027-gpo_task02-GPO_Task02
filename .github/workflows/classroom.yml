@@ -105,3 +105,4 @@ jobs:
           HID-3_RESULTS: "${{steps.hid-3.outputs.result}}"
         with:
           runners: sample-1,sample-2,hid-1,hid-2,hid-3
+          fail-on-error: true
